@@ -2,7 +2,7 @@
 
 配方： ℞ **stroke**
 
-[Rime](http://rime.im) 五筆畫輸入方案
+[Rime](https://rime.im) 五筆畫輸入方案
 
 ## 用法
 
