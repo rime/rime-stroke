@@ -55,10 +55,12 @@ menu:
 translator:
   dictionary: stroke
   preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
+  # - xlit/hspnz/㇐㇑㇒㇏㇠/ # 中日韓筆畫
+    - xlit/hspnz/⼀⼁⼃⼂⼄/ # 康熙部首
   comment_format:
     - xform/~//
-    - xlit/hspnz/一丨丿丶乙/
+  # - xlit/hspnz/㇐㇑㇒㇏㇠/ # 中日韓筆畫
+    - xlit/hspnz/⼀⼁⼃⼂⼄/ # 康熙部首
 
 abc_segmentor:
   extra_tags:
@@ -74,7 +76,8 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    - xlit/hspnz/一丨丿丶乙/
+  # - xlit/hspnz/㇐㇑㇒㇏㇠/ # 中日韓筆畫
+    - xlit/hspnz/⼀⼁⼃⼂⼄/ # 康熙部首
 
 punctuator:
   import_preset: default
