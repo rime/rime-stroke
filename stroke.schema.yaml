@@ -55,12 +55,12 @@ menu:
 translator:
   dictionary: stroke
   preedit_format:
-  # - xlit/hspnz/㇐㇑㇒㇏㇠/ # 中日韓筆畫
-    - xlit/hspnz/⼀⼁⼃⼂⼄/ # 康熙部首
+#   - xlit/hspnz/㇐㇑㇒㇏㇠/   # 中日韓筆畫（橫豎撇捺折）
+    - xlit/hspnz/⼀⼁⼃⼂⼄/   # 康熙部首（橫豎撇點折）
   comment_format:
     - xform/~//
-  # - xlit/hspnz/㇐㇑㇒㇏㇠/ # 中日韓筆畫
-    - xlit/hspnz/⼀⼁⼃⼂⼄/ # 康熙部首
+#   - xlit/hspnz/㇐㇑㇒㇏㇠/   # 中日韓筆畫（橫豎撇捺折）
+    - xlit/hspnz/⼀⼁⼃⼂⼄/   # 康熙部首（橫豎撇點折）
 
 abc_segmentor:
   extra_tags:
@@ -76,14 +76,17 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-  # - xlit/hspnz/㇐㇑㇒㇏㇠/ # 中日韓筆畫
-    - xlit/hspnz/⼀⼁⼃⼂⼄/ # 康熙部首
+#   - xlit/hspnz/㇐㇑㇒㇏㇠/   # 中日韓筆畫（橫豎撇捺折）
+    - xlit/hspnz/⼀⼁⼃⼂⼄/   # 康熙部首（橫豎撇點折）
 
 punctuator:
   import_preset: default
 
 key_binder:
   import_preset: default
+  bindings:
+    - { when: always, accept: "d", send: "n" }  # 捺屬點部
+    - { when: always, accept: "t", send: "h" }  # 提屬橫部
 
 recognizer:
   import_preset: default
