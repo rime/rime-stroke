@@ -111507,3 +111507,23 @@ max_phrase_length: 1         # 不生成詞彙
 𪛓	pnhszhszhszhszhssnhpzsshhzpz
 𪛕	pnhszhszhszhszhsspzszhhszzhhzhhzpnh
 𪛖	pnhszhszhszhszhsspzszhhszzhhzhhzpnhnnnn
+
+# Below entries were added manually. They are not generated from CNS11643 nor from original table
+# 以下詞條為人手增加，是CNS11643及源碼表以外的筆順資料
+𫩑	hpszh
+𰀁	hhs
+𰀂	hhz
+𰀄	hhz
+𰀆	hnph
+𰀈	hhszn
+𰀉	hszhs
+𰀠	spn
+𰀡	sszn
+𰀢	ssphn
+𰁜	nhsspn
+𰃦	psz
+𰃮	nnpnz
+𰅰	hsszsh
+𰆊	zs
+𲋄	pzhh
+𱍺	phhpz
